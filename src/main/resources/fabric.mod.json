@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "carpet_dc_addition",
+  "version": "${version}",
+  "name": "Carpet DC Addition",
+  "description": "DreamCity Server's Carpet Extension",
+  "environment": "server",
+  "entrypoints": {
+    "main": ["dc.carpetdcaddition.CarpetDCAddition"]
+  },
+  "mixins": ["carpet_dc_addition.mixins.json"],
+  "license": "GPL-3.0-only",
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "=26.3",
+    "java": ">=25",
+    "carpet": "26.3"
+  }
+}
