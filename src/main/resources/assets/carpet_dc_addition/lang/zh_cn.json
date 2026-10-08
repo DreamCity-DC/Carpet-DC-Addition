@@ -1,0 +1,4 @@
+{
+  "carpet.rule.optimizeMapPixelsUpdate.name": "优化地图像素更新",
+  "carpet.rule.optimizeMapPixelsUpdate.desc": "仅向追踪展示框地图的玩家同步地图像素变更"
+}

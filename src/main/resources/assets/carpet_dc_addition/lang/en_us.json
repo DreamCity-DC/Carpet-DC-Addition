@@ -1,0 +1,4 @@
+{
+  "carpet.rule.optimizeMapPixelsUpdate.name": "Optimize map pixel updates",
+  "carpet.rule.optimizeMapPixelsUpdate.desc": "Sync item-frame maps only to tracking players"
+}
