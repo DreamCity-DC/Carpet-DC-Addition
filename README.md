@@ -28,4 +28,5 @@ gradlew.bat build
 
 ## 致谢
 
-- [Paper](https://github.com/PaperMC/Paper)：`optimizeMapPixelsUpdate`补丁的上游实现
+- [Paper](https://github.com/PaperMC/Paper)
+- [Carpet TIS Addition](https://github.com/TISUnion/Carpet-TIS-Addition)

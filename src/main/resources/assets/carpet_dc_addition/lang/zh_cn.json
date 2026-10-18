@@ -1,4 +1,6 @@
 {
   "carpet.rule.optimizeMapPixelsUpdate.name": "优化地图像素更新",
-  "carpet.rule.optimizeMapPixelsUpdate.desc": "仅向追踪展示框地图的玩家同步地图像素变更"
+  "carpet.rule.optimizeMapPixelsUpdate.desc": "仅向追踪展示框地图的玩家同步地图像素变更",
+  "carpet.rule.vaultBlacklistDisabledByNamePrefix.name": "按玩家名前缀禁用宝库黑名单",
+  "carpet.rule.vaultBlacklistDisabledByNamePrefix.desc": "名字以指定前缀开头的玩家可绕过宝库黑名单，且不会被加入黑名单；false 关闭"
 }

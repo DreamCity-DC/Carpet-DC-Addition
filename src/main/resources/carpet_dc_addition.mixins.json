@@ -6,7 +6,9 @@
   "mixins": [
     "TrackedEntityAccessor",
     "ServerEntityMixin",
-    "MapItemSavedDataMixin"
+    "MapItemSavedDataMixin",
+    "VaultServerDataMixin",
+    "VaultSharedDataMixin"
   ],
   "injectors": {
     "defaultRequire": 1
