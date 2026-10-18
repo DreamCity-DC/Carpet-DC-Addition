@@ -18,6 +18,9 @@ public final class DCSettings {
     )
     public static String vaultBlacklistDisabledByNamePrefix = "false";
 
+    @Rule(categories = {"dc", RuleCategory.FEATURE})
+    public static boolean lightningNoFire = false;
+
     public static boolean bypassVaultBlacklist(Player player) {
         String prefix = vaultBlacklistDisabledByNamePrefix;
         return !prefix.isEmpty()

@@ -30,3 +30,4 @@ gradlew.bat build
 
 - [Paper](https://github.com/PaperMC/Paper)
 - [Carpet TIS Addition](https://github.com/TISUnion/Carpet-TIS-Addition)
+- [Carpet Igny Addition](https://github.com/liuyuexiaoyu1/Carpet-Igny-Addition)

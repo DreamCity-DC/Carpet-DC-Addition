@@ -4,6 +4,7 @@
 
 - [optimizeMapPixelsUpdate — 优化展示框地图更新](#optimizemappixelsupdate--优化展示框地图更新)
 - [vaultBlacklistDisabledByNamePrefix — 按玩家名前缀禁用宝库黑名单](#vaultblacklistdisabledbynameprefix--按玩家名前缀禁用宝库黑名单)
+- [lightningNoFire — 无火闪电](#lightningnofire--无火闪电)
 
 ## optimizeMapPixelsUpdate — 优化展示框地图更新
 
@@ -41,3 +42,13 @@
 设置为 `bot_` 时，名字以 `bot_` 开头的玩家可以重复开启同一个宝库，开箱后不会被加入该宝库的已领奖玩家黑名单。其他玩家仍受原版黑名单限制。
 
 如果同时安装了 Carpet TIS Addition，应保持其全局规则 `vaultBlacklistDisabled` 为 `false`。
+
+## lightningNoFire — 无火闪电
+
+移植自 [Carpet Igny Addition](https://github.com/liuyuexiaoyu1/Carpet-Igny-Addition) 的 [lightningBoltNoFire 规则](https://github.com/liuyuexiaoyu1/Carpet-Igny-Addition/blob/master/docs/rules.md#无火闪电束-lightningboltnofire)
+
+阻止闪电生成火方块，以防止烧毁建筑。闪电其它的所有特性比如伤害、点燃实体、转化实体、避雷针等等均不受影响。
+
+- 类型：`boolean`
+- 默认值：`false`（关闭，保持原版行为）
+- 分类：`dc`、`feature`

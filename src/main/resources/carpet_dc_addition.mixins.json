@@ -8,7 +8,8 @@
     "ServerEntityMixin",
     "MapItemSavedDataMixin",
     "VaultServerDataMixin",
-    "VaultSharedDataMixin"
+    "VaultSharedDataMixin",
+    "LightningBoltMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -2,5 +2,7 @@
   "carpet.rule.optimizeMapPixelsUpdate.name": "Optimize map pixel updates",
   "carpet.rule.optimizeMapPixelsUpdate.desc": "Sync item-frame maps only to tracking players",
   "carpet.rule.vaultBlacklistDisabledByNamePrefix.name": "Disable vault blacklist by player name prefix",
-  "carpet.rule.vaultBlacklistDisabledByNamePrefix.desc": "Players whose names start with the specified prefix bypass the vault blacklist and are not added to it; false disables this rule"
+  "carpet.rule.vaultBlacklistDisabledByNamePrefix.desc": "Players whose names start with the specified prefix bypass the vault blacklist and are not added to it; false disables this rule",
+  "carpet.rule.lightningNoFire.name": "Lightning without fire",
+  "carpet.rule.lightningNoFire.desc": "Lightning does not create fire blocks"
 }
