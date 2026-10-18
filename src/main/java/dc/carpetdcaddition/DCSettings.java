@@ -12,7 +12,7 @@ public final class DCSettings {
     public static boolean optimizeMapPixelsUpdate = false;
 
     @Rule(
-            categories = {"dc", RuleCategory.CREATIVE},
+            categories = {"dc", RuleCategory.FEATURE},
             options = {"false", "bot_"},
             strict = false
     )
